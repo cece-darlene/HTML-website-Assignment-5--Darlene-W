@@ -1,0 +1,172 @@
+/* External CSS */
+/* getting rid of default styles */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    background-color: #E5E3DC; 
+    font-family: 'Comfortaa', cursive;
+    color: #3A5A40;
+}
+
+/* general styles */
+
+p, dl{
+    color: #3A5A40;
+    font-size:  1.7em;
+}
+
+dd{
+    margin-left: 70px;
+}
+
+dt{
+    font-weight: bolder;
+}
+
+h2{
+    font-size: 2.2em;
+}
+
+/* ----------- navigation bar ----------- */
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    min-height: 8vh;
+}
+
+.logo{
+    color: #3A5A40;
+    text-transform: uppercase;
+    letter-spacing: 5px;
+    font-size: 1.5em;
+}
+
+.navLinks{
+    display: flex;
+    width: 55%;
+    justify-content: space-around;
+}
+
+.navLinks li{
+    list-style: none;
+}
+.navLinks a{
+    color: #3A5A40;
+    text-decoration: none;
+    letter-spacing: 3px;
+    font-weight: bolder;
+    font-size: 1.5em;
+}
+
+.navLinks li a{
+    transition: all 0.3s ease 0s;
+}
+
+.navLinks li a:hover{
+    transition: all 0.3s ease 0s;
+    color: #A3B18A;
+}
+
+/* ---------- sections ---------- */
+.section{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    min-height: 80vh;
+    align-items: center;
+    line-height: 40px;
+}
+
+.section2{
+    display: flex;
+    width: 85%;
+    margin: auto;
+    align-items: center;
+}
+
+.introText1{
+    flex: 1;
+}
+
+.image1{
+    flex: 1;
+}
+
+.image1 img{
+    width: 90vh;
+}
+
+.image img{
+    width: 80vh;
+}
+
+.text2 h2, .text2 p, dl{
+    padding: 0px 0px 0px 100px;
+}
+
+.text1 p{
+    padding: 0px 100px 0px 0px;
+}
+
+/* button style */
+.btn button{
+    margin: 100px;
+}
+
+.aboutBtn{
+    border: 2px solid #3A5A40;
+    background: #A3B18A;
+    color: #3A5A40;
+    width: 150px;
+    height: 50px;
+    cursor: pointer;
+    font-size: 1em;
+    font-weight: bolder;
+}
+
+/* footer */
+footer{
+    font-size: 1.7em;
+}
+
+/* About page section 1 */
+.centerSection{
+    margin: 100px;
+}
+
+/* a style to make text bold */
+.bold{
+    font-weight: bolder;
+}
+
+/* Contact us page section 1 */
+.contactUs{
+    /* text align property */
+    text-align: left;
+}
+
+.image3 img{
+    width: 80vh;
+}
+
+/* footer */
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* table here */
+table {
+    border-collapse: collapse;
+    width: 100%;
+  }
+
+th, td{
+    font-size: 1.7em;
+    border: 1px solid #3A5A40;
+    text-align: left;
+    padding: 8px;
+}
